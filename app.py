@@ -552,7 +552,7 @@ if st.button("Generate Study Material"):
                 options_html = ""
                 for j, opt in enumerate(options):
                     is_answer = opt == answer
-                    bg     = "rgba(128,0,0,0.06)" if is_answer else "#ffed92"
+                    bg     = "rgba(0, 128, 0, 0.06)" if is_answer else "#c9aeae"
                     border = "rgba(128,0,0,0.45)"  if is_answer else "rgba(128,0,0,0.15)"
                     weight = "600" if is_answer else "400"
                     color  = "#800000" if is_answer else "#444"
