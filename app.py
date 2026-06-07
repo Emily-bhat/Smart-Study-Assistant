@@ -356,6 +356,21 @@ div[data-testid="stAlert"][data-baseweb="notification"] {
 .main .block-container > *:nth-child(5) { animation-delay: 0.28s; }
 .main .block-container > *:nth-child(6) { animation-delay: 0.35s; }
 .main .block-container > *:nth-child(7) { animation-delay: 0.42s; }
+            
+/* Top Streamlit Header */
+[data-testid="stHeader"] {
+    background: #800000 !important;
+}
+
+/* Main toolbar area */
+[data-testid="stToolbar"] {
+    background: #800000 !important;
+}
+
+/* Optional: Remove transparency */
+header {
+    background: #800000 !important;
+}
 
 </style>
 """, unsafe_allow_html=True)
